@@ -1,0 +1,18 @@
+body{
+    font-size: 40px;
+}
+
+
+h1{
+    color: yellow;
+    
+    font-size: 2rem;
+}
+.red-border{
+    border: 5px solid blue;
+    background-color: cyan;
+}
+
+#lorem{
+    color: orange;
+}

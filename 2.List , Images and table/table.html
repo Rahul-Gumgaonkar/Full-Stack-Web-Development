@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table,
+      th,
+      td,
+      tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      caption {
+        caption-side: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <col span="1" />
+        <col />
+        <col style="background-color: lightgreen" />
+
+        <col />
+        <col style="background-color: lightgreen" />
+        <col style="background-color: lightsalmon; border: 5px solid brown" />
+      </colgroup>
+      <caption>
+        Time Table
+      </caption>
+      <tr>
+        <th></th>
+        <th>Mon</th>
+        <th>Tues</th>
+        <th>Wed</th>
+        <th>Thus</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+      </tr>
+
+      <tr>
+        <th>1st period</th>
+        <td>English</td>
+        <td></td>
+        <td></td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>2nd period</th>
+        <td>English</td>
+        <td>English</td>
+        <td></td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>3rd period</th>
+        <td></td>
+        <td>English</td>
+        <td></td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>4th period</th>
+        <td></td>
+        <td>English</td>
+        <td></td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Jill</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-9876</td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <tr>
+        <td>History</td>
+        <td>18</td>
+        <td>N</td>
+      </tr>
+    </table>
+  </body>
+</html>

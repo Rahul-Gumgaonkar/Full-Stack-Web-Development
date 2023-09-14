@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner{
+    background: url(https://media.discordapp.net/attachments/1040158445720055838/1041035025942069298/pngtree-business-background-banner-business-website-picture-image_306168.jpg);
+    width: 100vw;
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+
+}
+.code{
+    position:absolute;
+    color: blue;
+    /* top: 20px; */
+    left: 60px;
+    font-size: 1.4rem;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    gap: 70px;
+    left: 50px;
+    
+}
+.upper{
+     display: flex;
+    justify-content: center;
+    color: white;
+     flex-direction: row; 
+    gap: 50px; 
+    
+    
+}
+
+li{
+    list-style: none;
+    flex-direction: row;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1.2rem;
+    
+}
+input {
+    padding: 8px;
+    border: 2px solid rgb(0, 123, 255);
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background: transparent;
+    font-size: 0.9rem;
+    color: white;
+}
+button{
+    padding: 8px;
+    border: 2px solid rgb(0, 123, 255);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    right: 5px;
+    cursor: pointer;
+    background-color:  rgb(0, 123, 255);
+    color: white;
+    font-size: 0.9rem; 
+}
+button:hover{
+    color: black;
+}
+
+.main{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 60%;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+.text h1{
+    font-size: 2rem;
+
+}
+span{
+    font-size: 2.5rem;
+    color: blue;
+}
+.text h2{
+    font-size: 1.5rem;
+}
+p{
+    text-align: justify;
+    margin-bottom:15px ;
+}
+.text button{
+    border-radius: 5px;
+}
+
+.form-section{
+    background-color: rgb(48, 45, 45);
+    color: white;
+    width: 335px;
+    height: 440px;
+    border-radius: 20px ;
+    position: relative;
+    left: 400px;
+    top: 150px;
+}
+.form-section h2{
+    text-align: center;
+    color: rgb(0, 123, 255);
+    background-color: white;
+    border: 1px solid wheat;
+    width: 250px;
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 30px;
+    padding: 20px;
+    height: 20px;
+   
+ }
+ .input .srch{
+    border-top: none;
+    border-left: none;
+    border-radius: 0px;
+}
+.login .btn{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.login h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.login a{
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+}
+.footer-area{
+    display: flex;
+    margin-left: 40px;
+}
+.login-with{
+  margin-left: 120px;
+  margin-top: 30px;
+  font-size: 0.8rem;
+  color: white;
+}
+.social{
+    margin-left: 20px;
+  padding: 10px;
+}
+#facebook{
+    color: #3b5998;
+    font-size: 20px;
+}
+#instagram{
+    color: Purple;
+    font-size: 20px;
+}
+#twitter{
+    color: #00acee;
+    font-size: 20px;
+}
+#google{
+    color: #4285F4;
+    font-size: 20px;
+}

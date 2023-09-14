@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.news-card{
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    color: black;
+}
+
+.btn-read-more{
+    width: 80%;
+    
+    margin-inline: auto;
+    padding-block: 20px;
+    color: white;
+    background-color: black;
+}
+

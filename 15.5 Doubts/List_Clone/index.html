@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Clone</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: self-start;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .profile-card {
+        width: 350px;
+        height: auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 2px gray;
+        margin-inline: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <template id="user-card-template">
+      <div id="profile-card" class="profile-card">
+        <img
+          id="user-img"
+          class="user-img"
+          src="https://via.placeholder.com/300"
+          alt=""
+        />
+        <h2 id="user-name" class="user-name">Rahul</h2>
+        <p id="user-email" class="user-email">abc@gmail.com</p>
+      </div>
+    </template>
+
+    <div id="container" class="container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

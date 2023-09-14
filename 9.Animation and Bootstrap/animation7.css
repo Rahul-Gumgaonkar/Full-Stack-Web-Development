@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(18, 18, 18) , rgb(118, 117, 117));
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    width: 50vw;
+    background: radial-gradient(circle at 65% 15%, rgb(207, 224, 226) 1px, rgb(233, 181, 181) 3%, rgb(244, 26, 26) 60%, rgb(190, 115, 92) 100%);
+    height: 40em;
+    width: 60em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30em;
+    box-shadow: rgba(239, 217, 217, 0.997) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.loader{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 65% 15%, white 1px, rgb(157, 221, 222) 3%, rgb(0, 0, 15) 60%, rgb(188, 113, 90) 100%);
+    margin-bottom: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animateloader 1.4s ease-in-out infinite alternate ;
+}
+
+@keyframes animateloader{
+    0%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform:translateX(30px);
+    }
+}
+
+.semicircle{
+    position: absolute;
+    background: radial-gradient(circle at 65% 15%, white 1px, rgba(75, 255, 114, 0.996) 3%, rgb(2, 15, 0) 60%, rgb(57, 94, 115) 100%);
+    height: 100px;
+    width: 200px;
+    border-radius: 0 0 200px 200px;
+    margin-bottom: 1140px;
+    animation: animatesemi 1.4s ease-in-out infinite alternate;
+}
+@keyframes animatesemi{
+    0%{
+        transform:rotateZ(-35deg) translateX(23px);
+    }
+    100%{
+        transform:rotateZ(35deg) translateX(-23px);
+    }
+}
+
+.ball{
+    position: absolute;
+    margin-bottom: 1475px;
+    /* background-color: rgb(2, 2, 2); */
+    height:230px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    animation: animateball 1.4s ease-in-out infinite alternate;
+}
+@keyframes animateball{
+    0%{
+        transform:rotateZ(-180deg) ;
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
+
+.ball::before{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 65% 15%, white 1px, rgb(196, 196, 32) 3%, rgb(58, 58, 0) 60%, rgb(122, 126, 3) 100%);
+}

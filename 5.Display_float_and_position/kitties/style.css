@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: lightpink;
+}
+.contaner{
+    width: 100vw;
+    height: 100vh;
+    /* margin-inline-end: auto; */
+}
+.text-box{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    margin-inline: auto;
+    padding: 2rem 2rem;
+   
+}
+
+.kitty {
+    width: 200px;
+    /* float: inherit; */
+    float: right;
+   
+}
+.bottom-kitty{
+    width: 200px;
+    float: left;
+    
+}
+.top-paragraph{
+    /* clear: right; */
+}
+.cat{
+    width: 100px;
+    /* position: relative;
+    left: 30px;
+    top: 30px; */
+    /* position: absolute;
+    left: 30px;
+    top: 30px; */
+    /* position: fixed; */
+    position: sticky;
+    top: 20px;
+}
+
+
+.text{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    /* overflow: auto; */
+    overflow: auto;
+   
+}
+.spacer{
+    height: 200vh;
+}
+

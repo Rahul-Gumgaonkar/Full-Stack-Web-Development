@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contaner{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-inline: auto;
+    background-color: #eee;
+    gap: 15px;
+    margin-top: 40px;
+}
+ .start img ,.mid img ,.end img{
+    width: 100%;
+    
+}
+.start ,.end ,.mid{
+    box-shadow: 3px 3px 3px violet;
+    background-color: white;
+    /* align-self: center; */
+    
+}
+.content{
+    padding: 15px;
+}
+.name{
+    font-size: 1.5rem;
+    margin-bottom:10px ;
+}
+.about{
+    color: #ccc;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    padding: 8px;
+}
