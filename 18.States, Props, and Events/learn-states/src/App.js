@@ -22,12 +22,12 @@ function App() {
       {/* <Fruits /> */}
       {/* <Notes /> */}
 
-      <p>Increment the count in parent: {countInParent}</p>
+      {/* <p>Increment the count in parent: {countInParent}</p>
       <Count onCountUpdate={UpdateInParent} />
-      <Child2 countFromParent={countInParent} />
+      <Child2 countFromParent={countInParent} /> */}
       {/* <UserForm /> */}
       {/* <Hooks /> */}
-      {/* <NewsApp /> */}
+      <NewsApp />
     </div>
   );
 }

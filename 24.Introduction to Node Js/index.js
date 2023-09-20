@@ -59,7 +59,7 @@ app.post("/average", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  //   res.send("Server is working");
+  // res.send("Server is working");
   res.sendFile(__dirname + "/index.html");
 });
 
